@@ -1,20 +1,19 @@
 [tool.poetry]
-name = "endless-prime"
-version = "0.1.0"
-description = "A simple Website, which calculates the next prime number and plots it as coordinates"
 authors = ["Matti Kaupenjohann <matti.kaupenjohann@fh-dortmund.de>"]
+description = "A simple Website, which calculates the next prime number and plots it as coordinates"
 license = "GPLv3"
+name = "endless-prime"
 readme = "README.md"
+version = "0.1.0"
 
 [tool.poetry.dependencies]
-python = "^3.12"
-matplotlib = "^3.9.2"
 Flask = "^3.0.3"
-
+matplotlib = "^3.9.2"
+python = "^3.10"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.2"
 
 [build-system]
-requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
